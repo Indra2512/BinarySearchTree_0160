@@ -9,4 +9,9 @@ class Node
         Node *rightchild;
 
         // constructor for the node class
-}
+        Node()
+        {
+            leftchild = nullptr; // initialize left child to null
+            rightchild = nullptr; // initilize right child to null
+        }
+};
